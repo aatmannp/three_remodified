@@ -1,0 +1,310 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.index {
+  font-family: "Garamond";
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2EBD9;
+  background-image: url('head.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+.pages{
+  font-family: "Garamond";
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2EBD9;
+  background-repeat: no-repeat;
+}
+
+
+.page3 {
+  background-image: url('geo.jpg');
+  font-family: "Garamond";
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2EBD9;
+  background-repeat: no-repeat;
+  color: darkslateblue;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.tabs {
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  text-align: left;
+  line-height: 50px;
+  background-color: rgba(255,255,255,0.6);
+  font-family: "Garamond";
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.tabs a:hover {
+  color: #310306;
+}
+
+
+a, a:visited, a:active {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: darkred;
+  font-size: 20px;
+}
+
+a:active {
+  color: #000;
+}
+
+.main{
+  color: #000;
+  margin-top: -150px;
+  font-family: "Garamond";
+  font-size: 50px;
+
+}
+
+.geography{
+  color: darkslateblue;
+  margin-top: -700px;
+  font-family: "Garamond";
+  font-size: 30px;
+  border: 5px;
+  background-color: floralwhite;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.types{
+  color: darkred;
+  margin-top: 50px;
+  font-family: "Garamond";
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+
+
+#spanned{
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 20px;
+}
+
+
+.sectionOne {
+  padding-top: 1000px;
+}
+
+.sectionTwo{
+  padding-top: 100px;
+}
+
+.content{
+  padding-left: 40px;
+  padding-right: 45px;
+}
+
+.sub {
+  font-family: "Garamond";
+  font-size: 30pt;
+  margin-top: 100px;
+  margin-bottom: 64px;
+  color: darkred;
+}
+
+
+p {
+  font-size: 22pt;
+}
+
+.images {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+  width: 31%;
+  object-fit: cover;
+}
+
+.information {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Garamond";
+  font-size: 20px;
+  font-weight: 2px;
+  line-height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reverse{
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-content: right;
+  font-family: "Garamond";
+  font-size: 20px;
+  font-weight: 2px;
+  line-height: 35px;
+}
+}
+
+
+.side{
+  display: flex;
+  max-height: 50%;
+  max-width: 50% ;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.caption{
+  font-size: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: black;
+
+}
+
+
+.layout{
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+#history{
+  font-size: 75px;
+  color: darkred;
+  text-align: right;
+  padding-right: 50px;
+}
+
+#million{
+  font-size: 100px;
+  color: darkred;
+  text-align: left;
+  padding-left: 30px;
+}
+
+
+#cite{
+  font-size: 60px;
+  color: darkred;
+  text-align: center;
+}
+
+#links{
+  color: #000;
+  line-height: 50px;
+}
+
+#donation{
+  text-align: center;
+  font-size: 20px;
+  font-family: "Garamond";
+  color: #000;
+  padding-bottom: 30px;
+}
+
+#centered{
+  text-align: center;
+  color: darkred;
+  font-style: italic;
+
+}
+
+#back{
+  background-color: rgba(220,0,12,0.2) ;
+}
+
+#right{
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
+  background-color: rgba(220,0,12,0.2);
+  width: 50%;
+  margin-left: 650px ;
+  margin-top: -250px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+
+.thumbnail{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left: 20px;
+  object-fit: contain;
+}
+
+.page3Container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.percentContain {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 300px;
+  padding-left: 50px;
+}
+
+.percentContainTwo{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: -0.5px;
+  padding-left: 50px;
+}
+
+.baby {
+  background-color: floralwhite;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  color: darkred;
+}
+
+.percent{
+  color: black;
+  font-size: 100px;
+  font-family: "Garamond";
+}
+
+.percentInfo{
+  color: darkred;
+  line-height: 35px;
+  font-size: 25px;
+  font-family: "Garamond";
+  text-align: right;
+  width: 75%;
+  margin-left: auto;
+  margin-right: 20px;
+  padding-left: 30px;
+  margin-top: -5px;
+
+}
